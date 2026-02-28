@@ -24,4 +24,9 @@ const Page = {
   },
 };
 
-document.addEventListener("DOMContentLoaded", () => Navigation.init());
+document.addEventListener("click", async (e) => {
+  const link = e.target.closest(".nav-b");
+  if (!link) return;
+  e.preventDefault();
+  await Page.load(link.dataset.page);
+});
