@@ -1,3 +1,5 @@
+<?php echo "TEST"; ?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -12,13 +14,13 @@
         <div id="page-c">
             <h1>Page <span style="color: blue">1</span></h1>
             <div class="base">
-                <a href="#base1" data-page="pages/page1.html" class="nav-b"
+                <a href="#base1" data-page="pages/page1.php" class="nav-b"
                     >pages 1</a
                 >
-                <a href="#base2" data-page="pages/page2.html" class="nav-b"
+                <a href="#base2" data-page="pages/page2.php" class="nav-b"
                     >pages 2</a
                 >
-                <a href="#base3" data-page="pages/page3.html" class="nav-b"
+                <a href="#base3" data-page="pages/page3.php" class="nav-b"
                     >pages 2</a
                 >
             </div>

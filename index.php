@@ -12,13 +12,13 @@
         <main id="page-c">
             <h1>Uni<span style="color: blue">'</span>dle</h1>
             <div class="base">
-                <a href="#page1.html" data-page="pages/page1.html" class="nav-b"
+                <a href="#page1.php" data-page="pages/page1.php" class="nav-b"
                     >pages 1</a
                 >
-                <a href="#page2.html" data-page="pages/page2.html" class="nav-b"
+                <a href="#page2.php" data-page="pages/page2.php" class="nav-b"
                     >pages 2</a
                 >
-                <a href="#page3.html" data-page="pages/page3.html" class="nav-b"
+                <a href="#page3.php" data-page="pages/page3.php" class="nav-b"
                     >pages 3</a
                 >
             </div>
